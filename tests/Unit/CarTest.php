@@ -34,6 +34,7 @@ class CarTest extends TestCase
 
         $this->assertTrue($car->save());
     }
+
     public function testCountUsers()
     {
         $carCount = 50;
@@ -49,6 +50,15 @@ class CarTest extends TestCase
         $car->save();
 
         $this->assertTrue($car->save());
+
+    }
+
+    public function testModelString()
+    {
+        $car = Car::first();
+        $this->assertInternalType("string", $car->model);
+
+        $this->assertTrue(true);
 
     }
 }
