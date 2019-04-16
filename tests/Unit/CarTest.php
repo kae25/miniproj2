@@ -61,4 +61,12 @@ class CarTest extends TestCase
         $this->assertTrue(true);
 
     }
+
+    public function testYearInteger()
+    {
+        $car = Car::first();
+        $this->assertInternalType("int", $car->year);
+
+        $this->assertTrue(true);
+    }
 }

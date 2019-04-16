@@ -27,9 +27,9 @@ class UserTest extends TestCase
 
     public function testCountUsers()
     {
-      $userCount = 50;
-      $user = factory(User::class, 50)->create();
-      $this->assertGreaterThanOrEqual($userCount, count($user));
+        $userCount = 50;
+        $user = factory(User::class, 50)->create();
+        $this->assertGreaterThanOrEqual($userCount, count($user));
         $this->assertTrue(true);
     }
 
@@ -40,4 +40,6 @@ class UserTest extends TestCase
 
         $this->assertTrue($user->save());
     }
+
+
 }
