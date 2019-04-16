@@ -38,7 +38,7 @@ class CarTest extends TestCase
     public function testUpdate2()
     {
         $car = Car::find(3);
-        $car->year = '2002';
+        $car->year = '2000';
         $car->save();
 
         $this->assertTrue($car->save());

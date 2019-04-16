@@ -5,6 +5,7 @@ namespace Tests\Unit;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use PHPUnit\Framework\Constraint\IsType;
 use App\User;
 use App\Car;
 
@@ -15,13 +16,14 @@ class UserTest extends TestCase
      *
      * @return void
      */
-    public function testInsert()
-    {
-      $user = new User();
-        $user->name = 'colleen florence';
-        $user->email = 'colleenflorence05@yahoo.com';
-        $user->password = 'hellodolly05';
 
-       $this->assertTrue($user->save());
+
+    public function testUpdate1()
+    {
+        $user = User::find(2);
+        $user->name = 'Steve Smith';
+
+        $this->assertTrue($user->save());
     }
+
 }
