@@ -23,4 +23,15 @@ class CarTest extends TestCase
 
         $this->assertTrue($car->save());
     }
+
+    public function testDelete2()
+    {
+        $car = new Car();
+        $car->model = 'car';
+        $car->make = 'ford';
+        $car->year = '1998';
+        $car->save();
+
+        $this->assertTrue($car->save());
+    }
 }
