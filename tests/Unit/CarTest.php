@@ -69,4 +69,13 @@ class CarTest extends TestCase
 
         $this->assertTrue(true);
     }
+
+    public function testCarMake()
+    {
+        $car = Car::first();
+        $makeArray = ['ford', 'honda', 'toyota'];
+        $this->assertContains($car->make, $makeArray);
+
+        $this->assertTrue(true);
+    }
 }
