@@ -81,12 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Welcome
                 </div>
 
                 <div class="links">
                     <a href='/about'>About</a>
-                    <a href="https://laracasts.com">Contact</a>
+                    <a href='/contact'>Contact</a>
 
                 </div>
             </div>
