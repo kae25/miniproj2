@@ -17,8 +17,14 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(Car::class, function (Faker $faker) {
+$factory->define(App\Car::class, function (Faker $faker) {
+
+    $faker->addProvider(new \Faker\Provider\Fakecar($faker));
+    $v = $faker->vehicleArray();
+
     return [
-    //
+        'model' => $faker->vehicleType,
+        'make' => $faker->name,
+        'year' => $faker->year($startDate = '-30 years', $endDate = 'now'),
     ];
 });
