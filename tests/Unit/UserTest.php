@@ -15,10 +15,13 @@ class UserTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testInsert()
     {
-       $user = User::find (1);
+      $user = new User();
+        $user->name = 'colleen florence';
+        $user->email = 'colleenflorence05@yahoo.com';
+        $user->password = 'hellodolly05';
 
-       $this->assertInternalType('int', $user->id);
+       $this->assertTrue($user->save());
     }
 }
