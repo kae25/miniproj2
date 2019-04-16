@@ -34,6 +34,13 @@ class CarTest extends TestCase
 
         $this->assertTrue($car->save());
     }
+    public function testCountUsers()
+    {
+        $carCount = 50;
+        $car = factory(Car::class, 50)->create();
+        $this->assertLessThanOrEqual($carCount, count($car));
+        $this->assertTrue(true);
+    }
 
     public function testUpdate2()
     {
