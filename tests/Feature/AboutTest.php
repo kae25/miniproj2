@@ -20,3 +20,4 @@ class AboutTest extends TestCase
         $response->assertStatus(200);
     }
 }
+//about page test

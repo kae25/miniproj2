@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd6e5e8c-bbf1-4192-9bb8-6052d043e4d9" name="Default Changelist" comment="Car Model is a String Test">
+    <list default="true" id="cd6e5e8c-bbf1-4192-9bb8-6052d043e4d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_15_233148_create_cars_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_04_15_233148_create_cars_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/CarTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/CarTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/UserTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,15 +71,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -98,11 +85,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/CarTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="172">
+              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="e#30#49#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/AboutTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -140,7 +136,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Car.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -212,11 +208,11 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/AboutTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/UserTest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_15_233148_create_cars_table.php" />
-        <option value="$PROJECT_DIR$/tests/Unit/CarTest.php" />
         <option value="$PROJECT_DIR$/app/Car.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/CarTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/AboutTest.php" />
       </list>
     </option>
   </component>
@@ -406,7 +402,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555363523497</updated>
-      <workItem from="1555363525864" duration="31746000" />
+      <workItem from="1555363525864" duration="32413000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Laravel Site">
       <created>1555363906073</created>
@@ -548,11 +544,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555393802344</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Car Year is an Integer Test">
+      <created>1555395412788</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555395412788</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Car Make is Toyota, Honda, Ford Test">
+      <created>1555395686568</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555395686568</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31746000" />
+    <option name="totallyTimeSpent" value="32413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="2189" height="1301" extended-state="6" />
@@ -628,7 +638,9 @@
     <MESSAGE value="Car Count Test" />
     <MESSAGE value="User Delete Test" />
     <MESSAGE value="Car Model is a String Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Car Model is a String Test" />
+    <MESSAGE value="Car Year is an Integer Test" />
+    <MESSAGE value="Car Make is Toyota, Honda, Ford Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Car Make is Toyota, Honda, Ford Test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ba2f3c06-0081-4c06-bc4d-658b3fd88720/console.sql">
@@ -812,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/AboutTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -923,16 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/CarTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="e#30#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_15_233148_create_cars_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -957,6 +952,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/CarTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="e#30#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/AboutTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
