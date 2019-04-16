@@ -24,7 +24,7 @@ $factory->define(App\Car::class, function (Faker $faker) {
 
     return [
         'model' => $faker->vehicleType,
-        'make' => $faker->name,
+        'make' => $faker->randomElement($array = array ('ford','honda','toyota')),
         'year' => $faker->year($startDate = '-30 years', $endDate = 'now'),
     ];
 });
