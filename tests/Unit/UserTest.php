@@ -7,7 +7,6 @@ use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use PHPUnit\Framework\Constraint\IsType;
 use App\User;
-use App\Car;
 
 class UserTest extends TestCase
 {
@@ -25,5 +24,14 @@ class UserTest extends TestCase
 
         $this->assertTrue($user->save());
     }
+
+    public function testCountUsers()
+    {
+      $userCount = 50;
+      $user = factory(User::class, 50)->create();
+      $this->assertGreaterThanOrEqual($userCount, count($user));
+        $this->assertTrue(true);
+    }
+
 
 }
